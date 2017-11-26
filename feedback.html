@@ -4,15 +4,63 @@
 	<head>
 		<title>Customer Feedback</title>
 
-		<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+	
+	<!-- Files For mRova Feedback Form [Dependency: jQuery] -->
+	<script src="feedback-form-js.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="feedback-form-css.css" type="text/css"/>
+	<!-- END -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<!-- TESTING THE FEEDBACK BUTTON CSS -->
+	<style type="text/css">
+	html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	}
+	body{
+		background-color: #f2f2f2;
+		font-family: helvetica,arial,tahoma,verdana,sans-serif;
+	}
+	h1{
+		text-align: center;
+		margin-top: 40px;
+		color: #333;
+	}
+	</style>
+	<!-- END -->
+
 	</head>
 	
 	<body>
+
+		<h3> Feedback Appreciated </h3>
+
+	<!--Feedback Form HTML START -->
+	<div id="mrova-feedback">
+		<div id="mrova-contact-thankyou" style="display: none;">
+			Thank you.  We've received your feedback.
+		</div>
+		<div id="mrova-form">
+			<form id="mrova-contactform" action="#" method="post">
+				<ul >
+					<li>
+						<label for="mrova-name">Your Name*</label> <input type="text" name="mrova-name" class="required" id="mrova-name" value="">
+					</li>
+					<li>
+						<label for="mrova-email">Email*</label> <input type="text" name="mrova-email" class="required" id="mrova-email" value="">
+					</li>
+					<li>
+						<label for="mrova-message">Message*</label>
+						<textarea class="required" id="mrova-message" name="mrova-message"  rows="8" cols="30"></textarea>
+					</li>
+				</ul>
+				<input type="submit" value="Send" id="mrova-sendbutton" name="mrova-sendbutton">
+			</form>
+		</div>
+		<div id="mrova-img-control"></div>
+	</div>
+	<!-- Feedback Form HTML END -->
 		
 	</body>
 	</html>
