@@ -1,7 +1,7 @@
 <style>
-  .nav {
-    background-color: black;
 
+  .bg-dark{
+    background-color: #000000;
   }
 
   .body{
@@ -37,30 +37,32 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- THIS STUFF BELOW NEEDS to be Added to every PAGE (BOOTSTRAP Shizzles!) -->
+    
+
   </head>
 
-  <body>
+  <body style="background-color: black">
    
 
-   <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="Primary Index.html">Main Page</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="inventory.html">Inventory</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="About Us.html">About Us</a>
-  </li>
-</ul>
-</div>
+<div class="container">
 
 
+  <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
+  <a class="navbar-brand" href="#">BrandName</a>
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <strong><a style="color: white" class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a></strong>
+      <strong><a style="color: white" class="nav-item nav-link" href="#">Features</a> </strong>
+      <strong><a style="color: white" class="nav-item nav-link" href="#">Pricing</a> </strong>
+      <strong><a style="color: white" class="nav-item nav-link" href="#">Disabled</a> </strong>
+    </div>
+  </div>
+</nav>
 
-
-
-<div class="container-fluid">
-  <h1>Meet the Team</h1>   
+  <h1 style="color: #C0C0C0">Meet the Team</h1>   
   <hr>
 </div>
 
@@ -73,7 +75,7 @@
   <div class="card-body">
     <h4 class="card-title">Dhruv Mistry - CEO and Product Architect</h4>
     <p class="card-text">Dhruv had a vision 5 years ago that cars can be cheap, high-quality, and affordable. </p>
-    <a href="Dhruv Mistry.html" class="btn btn-primary">Contact Dhruv</a>
+    <a href="#" class="btn btn-primary">Contact Dhruv</a>
   </div>
 </div>
 </div>
@@ -81,11 +83,11 @@
 
 <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="Shraddha.jpg" alt="Shraddha Tailor">
+  <img class="card-img-top" src="Shraddha.jpg" alt="Shraddha Tailor" style="height: 318px">
   <div class="card-body">
     <h4 class="card-title">Shraddha Tailor - Chief Technical Officer</h4>
     <p class="card-text">After graduating at SJSU, Shraddha went on to work at Mistry Vehicles for 25 years.</p>
-    <a href="Shraddha Tailor.html" class="btn btn-primary">Contact Shraddha</a>
+    <a href="#" class="btn btn-primary">Contact Shraddha</a>
   </div>
 </div>
 </div>
@@ -99,7 +101,7 @@
   <div class="card-body">
     <h4 class="card-title">Jacky Huynh - Chief Financial Officer</h4>
     <p class="card-text">Before coming to Mistry Vehicles, Jacky worked as an Investment Banker at JP Morgan.</p>
-    <a href="Jacky Huynh.html" class="btn btn-primary">Contact Jacky</a>
+    <a href="#" class="btn btn-primary">Contact Jacky</a>
   </div>
 </div>
 </div>
@@ -110,7 +112,7 @@
   <div class="card-body">
     <h4 class="card-title">Eric Chee - Chief Operating Officer test</h4>
     <p class="card-text">Eric has sold 3 different startups around the Bay Area before joining Mistry Vehicles.</p>
-    <a href="Eric Chee.html" class="btn btn-primary">Contact Eric</a>
+    <a href="#" class="btn btn-primary">Contact Eric</a>
   </div>
 </div>
 </div>
