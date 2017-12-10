@@ -28,6 +28,10 @@ padding: 10px;
 border: 1px solid #ccc;
 }
 
+#mrova-contactform input[type=radio]{
+width: 10px;
+}
+
 #mrova-contactform ul li {
 	list-style:none; 
 	padding-bottom:20px;
@@ -40,7 +44,7 @@ border: 1px solid #ccc;
 position: absolute;
 left: -52px;
 width: 52px;
-background: transparent url('feedback_buttons/feedback.jpg');
+background: transparent url('feedback.jpg');
 height: 168px;
 }
 #mrova-contactform #mrova-sendbutton {
