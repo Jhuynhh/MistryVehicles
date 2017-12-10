@@ -32,10 +32,10 @@ background-color: #dddddd;
 
 <tbody>
 <?php
-$name = $_POST['name'];
-$feedback = $_POST['feedback'];
-$score = $_POST['score'];
-$product = $_POST['product'];
+$name = $_POST['mrova-name'];
+$feedback = $_POST['mrova-message'];
+$score = $_POST['rating'];
+$product = $_POST['carlist'];
 $user = $_POST['user'];
 $pwd = $_POST['pwd'];
 $connectionstring = mysql_connect('localhost') 
@@ -79,4 +79,4 @@ or die('Could not close database: ' . mysql_error());
 </table>
 </body>
 
-</html>
+</html>
