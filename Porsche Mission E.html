@@ -1,102 +1,85 @@
-<style>
-  .nav {
-    background-color: black;
-
-  }
-
-  .body{
-    background-color: black;
-  }
-
- .container{
-     margin: 0;
-     padding: 0;
-     text-align: center;
-}
-
- .card{
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
-.container-fluid{
-       text-align: center;
-}
-
-</style>
-
-
-<!doctype html>
-<html lang="en">
+<Doctype html!>
+  <!DOCTYPE html>
+  <html>
   <head>
-    <title>Mistry Vehicles</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Porche Mission E</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
   </head>
 
   <body>
-    
-   <div>
-
-   <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link disabled" href="main.html">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="inventory.html">Inventory</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="people.html">About Us</a>
-  </li>
- 
-
-</ul>
-</div>
-
-
-<div class="container-fluid">
-  <h1> Our Inventory</h1>   
-  <hr>
-</div>
-
-<div class="container">
-<div class="row">
-
-<div class="col">
-<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="porsche_mission_e_.jpg" alt="Card image cap">
-  <div class="card-block">
-    <h4 class="card-title">Porsche Mission E 2019</h4>
-    <p class="card-text">Description/Details:
-In the Concept Study Mission E, principles come to bear which have actually been intrinsic to every Porsche since the birth of the 356 in 1948: lightness, openness, purism, clear architecture, driver-orientation and day-to-day usability. <br>
-The all-electric drive concept allows an entirely new interpretation of these principles. For example, the absence of a transmission tunnel opens up cabin space and imparts a lighter, more generously proportioned ambient feeling. The four individual seats are inspired by bucket-type racing seats, thus saving weight and giving all passengers the appropriate lateral support to match the driving dynamics of the car. <br>
-Driving a Porsche means driving at its spectacular best. The key specs of Concept Study Mission E go to show that this holds true for e-mobility too: <br>
-• Acceleration 0-100 km/h < 3.5 sec <br>
-• Acceleration 0-200 km/h < 12 sec <br>
-• Top speed > 250 km/h <br>
-• Power > 440 kW (> 600 hp) <br>
-• Range > 500 km (300 Miles) <br>
-• System voltage 800 V <br>
-• Charging time 80% in < 15 min <br>
-Price: <br>
-$50,000 (Cash preferred) 
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="Primary Index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="People.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inventory.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
 
-    </p>
-    <a href="Porsche Mission E.html" class="btn btn-primary">More Detials</a>
-  </div>
-</div>
-</div> 
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="porsche_mission_e_concept/pictures/porsche.jpg" alt="Porsche Image 1" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="porsche_mission_e_concept/pictures/porsche other.jpg" alt="Porsche Image 2" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="ny.jpg" alt="New York" width="1100" height="500">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+
   </body>
-</html>
+  </html>
