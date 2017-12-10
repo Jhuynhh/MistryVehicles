@@ -1,112 +1,50 @@
-<style>
-  .nav {
-    background-color: black;
-
-  }
-
-  .body{
-    background-color: black;
-  }
-
- .container{
-     margin: 0;
-     padding: 0;
-     text-align: center;
-}
-
- .card{
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
- }
-.container-fluid{
-       text-align: center;
-}
-
-</style>
-
-
-<!doctype html>
-<html lang="en">
+<Doctype html!>
+  <!DOCTYPE html>
+  <html>
   <head>
     <title>Eric Chee</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+
   </head>
-
   <body>
-   
 
-   <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="Primary Index.html">Main Page</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="inventory.html">Inventory</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="About Us.html">About Us</a>
-  </li>
-</ul>
-</div>
+    <div class="container">
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-
-
-
-<div class="container-fluid">
-  <h1>Meet Eric</h1>   
-  <hr>
-</div>
-
-<div class ="col">
-<div class="card" style="width: 20rem;" "height: 30">
-  <img class="card-img-top" src="Eric.jpg" alt="Eric Chee">
-  <div class="card-body">
-    <h4 class="card-title">Eric Chee - Chief Operating Officer test</h4>
-    <p class="card-text">Eric has sold 3 different startups around the Bay Area before joining Mistry Vehicles.</p>
-    <a href="#" class="btn btn-primary">Contact Eric</a>
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-<script type="text/javascript">
-tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
-tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
-
-function GetClock(){
-var d=new Date();
-var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
-var nhour=d.getHours(),nmin=d.getMinutes(),ap;
-if(nhour==0){ap=" AM";nhour=12;}
-else if(nhour<12){ap=" AM";}
-else if(nhour==12){ap=" PM";}
-else if(nhour>12){ap=" PM";nhour-=12;}
-
-if(nmin<=9) nmin="0"+nmin;
-
-document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+ap+"";
-}
-
-window.onload=function(){
-GetClock();
-setInterval(GetClock,1000);
-}
-</script>
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <img src="">
   </body>
-</html>
+  </html>
