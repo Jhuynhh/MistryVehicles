@@ -9,12 +9,15 @@
 
 	<?php include_once './header.php'; ?>
 
-    <div class="container">
-        <h1 style="color: #C0C0C0">Meet the Team</h1>
-        <hr>
-    </div>
+    <div class="container container-first">
 
-    <div class="container">
+        <div class="row">
+            <div class="container">
+                <h1 style="color: #C0C0C0">Meet the Team</h1>
+                <hr>
+            </div>
+        </div>
+
         <div class="row">
 
             <div class="col">
