@@ -13,6 +13,7 @@ label {
 	border: 1px solid #3cb58c;
 	padding: 8px 20px;
 	background-color: #fff;
+	color: #F0F0F0;
 }
 
 
@@ -42,7 +43,7 @@ width: 10px;
 	cursor: pointer;
 	
 position: absolute;
-left: -95px;
+left: -52px;
 width: 52px;
 background: transparent url('feedback.jpg');
 height: 168px;

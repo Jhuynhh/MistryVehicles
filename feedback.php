@@ -4,7 +4,7 @@
         background-color: black;
     }
 </style>
-<div id="mrova-feedback" style="z-index: 1;">
+<div id="mrova-feedback" style="z-index: 2; right: -420px;">
     <div id="mrova-form">
         <form id="mrova-contactform" action="FeedbackSaveAndDisplay.php" method="post">
             <div class="row">
@@ -58,7 +58,7 @@
                     </div>
                     <div class="form-group">
                         <label>Message*</label>
-                        <textarea class="form-control required" id="mrova-message" name="mrova-message" rows="8" cols="30"></textarea>
+                        <textarea class="form-control required" id="mrova-message" name="mrova-message" rows="2" cols="30"></textarea>
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Submit" class="btn btn-primary">

@@ -166,7 +166,7 @@
 
     .product-grid__product:hover {
         box-shadow: 0px 0px 0px 1px #eee;
-        z-index: 50;
+        z-index: 1;
     }
 
     .product-grid__product:hover .product-grid__extend {
