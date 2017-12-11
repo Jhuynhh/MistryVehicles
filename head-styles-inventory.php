@@ -185,7 +185,7 @@
     .product-grid__img {
         max-width: 100%;
         height: auto;
-        /*max-height: 156px;*/
+        max-height: 234px;
     }
 
     .product-grid__title {

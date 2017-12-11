@@ -9,6 +9,9 @@
 $current = $_SERVER['SCRIPT_NAME'];
 
 switch ( $current ) {
+    case '/feedback.php':
+	    $title = 'Feedback List';
+        break;
 	case '/people.php':
 		$title = 'Mystery Team';
 		break;
@@ -44,12 +47,13 @@ switch ( $current ) {
 
 <link rel="stylesheet" href="feedback-form-css.css" type="text/css"/>
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
 <style>
 	body {
 		font-family: 'Open Sans', sans-serif;
 		font-style: normal;
+        background-color: black;
 	}
 
 	#clockbox {

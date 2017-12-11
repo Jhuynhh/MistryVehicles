@@ -8,7 +8,7 @@
 <div class="container-fluid">
 
 	<?php include_once './header.php'; ?>
-	<?php include_once './feedback.php'; ?>
+	<?php include_once './feedback-template.php'; ?>
 
     <div class="wrapper container-first">
         <div class="desc">
