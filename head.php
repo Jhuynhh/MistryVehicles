@@ -12,8 +12,11 @@ switch ( $current ) {
 	case '/people.php':
 		$title = 'Mistry Team';
 		break;
+	case '/inventory.php':
+		$title = 'Inventory';
+		break;
 	default:
-		$title = 'Autoshop Homepage';
+		$title = 'Mistry Vehicles';
 		break;
 }
 

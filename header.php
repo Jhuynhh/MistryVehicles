@@ -23,7 +23,7 @@ $current = $_SERVER['SCRIPT_NAME'];
 				<li class="nav-item <?php echo $current === '/people.php' ? 'active' : ''; ?>">
 					<a class="nav-link" href="./people.php">About Us</a>
 				</li>
-				<li class="nav-item <?php echo $current === '/inventory.html' ? 'active' : ''; ?>">
+				<li class="nav-item <?php echo $current === '/inventory.php' ? 'active' : ''; ?>">
 					<a class="nav-link" href="./inventory.php">Products</a>
 				</li>
 				<li class="nav-item">
