@@ -36,9 +36,9 @@
         </tfoot>
         <tbody>
         <?php
-        $connectionstring = mysql_connect('localhost', 'mistrybuN0K6tm9I', 'VdlWQcBqHknjOto')
+        $connectionstring = mysql_connect('localhost', 'mistrydhruv118w', '')
         or die('Could not connect:' . mysql_error());
-        mysql_select_db ('mistry-vehicles_localtest_me')
+        mysql_select_db ('my_mistrydhruv118w')
         or die('Could not select database: ' . mysql_error());
 
         if ( $_POST['mrova-name'] && $_POST['mrova-message'] && $_POST['rating'] && $_POST['carlist'] ) {
