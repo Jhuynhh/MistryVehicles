@@ -48,7 +48,7 @@
 	        $product = $_POST['carlist'];
 
 	        //create insert SQL string
-	        $Insert = "INSERT INTO tblOnlineWatch (Name, Feedback, Score, Product) VALUES ('$name', '$feedback', $score, '$product')";
+	        $Insert = "INSERT INTO customerFeedback (Name, Feedback, Score, Product) VALUES ('$name', '$feedback', $score, '$product')";
 
 	        //insert into database
 	        $results = mysql_query($Insert)
@@ -56,7 +56,7 @@
         }
 
         //SQL query
-        $Query = 'SELECT * FROM tblOnlineWatch WHERE 1';
+        $Query = 'SELECT * FROM customerFeedback WHERE 1';
 
         //execute query
         $queryexe = mysql_query($Query)
