@@ -11,8 +11,8 @@
 	<?php include_once './header.php'; ?>
 
     <div class="container-first">
-        <h1>Welcome to Mistry Vehicles </h1><br>
-        <h2>Luxury, Performance, Affordable </h2> <br><br>
+        <h1>Welcome to Mystery Vehicles </h1><br>
+        <h2>Luxury, Performance, Unaffordable </h2> <br><br>
 
     <a href="./inventory.php">
         <input style="cursor: pointer;" type="button" class="button2" value="Unaffordable Cars">

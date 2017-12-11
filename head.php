@@ -10,7 +10,7 @@ $current = $_SERVER['SCRIPT_NAME'];
 
 switch ( $current ) {
 	case '/people.php':
-		$title = 'Mistry Team';
+		$title = 'Mystery Team';
 		break;
 	case '/dhruv-mistry.php':
 		$title = 'Dhruv Mistry';
@@ -28,7 +28,7 @@ switch ( $current ) {
 		$title = 'Inventory';
 		break;
 	default:
-		$title = 'Mistry Vehicles';
+		$title = 'Mystery Vehicles';
 		break;
 }
 

@@ -171,6 +171,7 @@
 
     .product-grid__product:hover .product-grid__extend {
         display: block;
+        max-height: 400px;
     }
 
     .product-grid__img-wrapper {
@@ -184,7 +185,7 @@
     .product-grid__img {
         max-width: 100%;
         height: auto;
-        max-height: 165px;
+        /*max-height: 156px;*/
     }
 
     .product-grid__title {
