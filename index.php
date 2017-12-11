@@ -12,10 +12,11 @@
 
     <div class="container-first">
         <h1>Welcome to Mistry Vehicles </h1><br>
-        <h2>Luxery, Performance, Affordable </h2> <br><br>
+        <h2>Luxury, Performance, Affordable </h2> <br><br>
 
-        <input type="button" class="button" value="Used Cars">
-        <input type="button" class="button2" value="New Cars">
+    <a href="./inventory.php">
+        <input style="cursor: pointer;" type="button" class="button2" value="Unaffordable Cars">
+    </a>
     </div>
 
 	<?php include_once './scripts.php'; ?>
