@@ -12,6 +12,18 @@ switch ( $current ) {
 	case '/people.php':
 		$title = 'Mistry Team';
 		break;
+	case '/dhruv-mistry.php':
+		$title = 'Dhruv Mistry';
+		break;
+	case '/shraddha-tailor.php':
+		$title = 'Shraddha Tailor';
+		break;
+	case '/jacky-huynh.php':
+		$title = 'Jacky Huynh';
+		break;
+	case '/eric-chee.php':
+		$title = 'Eric Chee';
+		break;
 	case '/inventory.php':
 		$title = 'Inventory';
 		break;
@@ -29,6 +41,8 @@ switch ( $current ) {
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<link rel="stylesheet" href="feedback-form-css.css" type="text/css"/>
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 

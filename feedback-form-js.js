@@ -4,7 +4,7 @@ $.fn.vAlign = function() {
 	var h = $(this).height();
 	var oh = $(this).outerHeight();
 	var mt = (h + (oh - h)) / 2;	
-	$(this).css("margin-top", "-" + mt + "px");	
+	$(this).css("margin-top", "-" + mt + "px");
 	$(this).css("top", "50%");
 	});	
 };
@@ -25,8 +25,8 @@ $(window).load(function() {
 	$mrova_contactform = $('#mrova-contactform');
 
 	//setback to block state and vertical align to center
-	$mrova_feedback.vAlign()
-	.css({'display':'block','height':$mrova_feedback.outerHeight()});
+	// $mrova_feedback.vAlign()
+	// .css({'display':'block','height':$mrova_feedback.outerHeight()});
 	//Aligning feedback button to center with the parent div 
 
 	$img_control.vAlign()

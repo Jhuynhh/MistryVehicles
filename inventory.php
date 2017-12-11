@@ -8,6 +8,7 @@
 <div class="container-fluid">
 
 	<?php include_once './header.php'; ?>
+	<?php include_once './feedback.php'; ?>
 
     <div class="wrapper container-first">
         <div class="desc">

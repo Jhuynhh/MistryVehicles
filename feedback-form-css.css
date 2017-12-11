@@ -1,8 +1,8 @@
 
 label {
-	display:block; 
-	padding-bottom:5px; 
-	margin-top:20px;
+	/*display:block; */
+	/*padding-bottom:5px; */
+	/*margin-top:20px;*/
 }
 
 #mrova-feedback{
@@ -23,9 +23,9 @@ label {
 }
 
 #mrova-contactform input, #mrova-contactform textarea{
-width: 400px;
-padding: 10px;
-border: 1px solid #ccc;
+/*width: 400px;*/
+/*padding: 10px;*/
+/*border: 1px solid #ccc;*/
 }
 
 #mrova-contactform input[type=radio]{
@@ -42,7 +42,7 @@ width: 10px;
 	cursor: pointer;
 	
 position: absolute;
-left: -52px;
+left: -95px;
 width: 52px;
 background: transparent url('feedback.jpg');
 height: 168px;

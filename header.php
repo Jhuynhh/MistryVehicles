@@ -7,7 +7,7 @@
  */
 
 $current = $_SERVER['SCRIPT_NAME'];
-
+$people_array = array('/people.php', '/dhruv-mistry.php', '/eric-chee.php', 'jacky-huynh.php', '/shraddha-tailor.php');
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 	<div class="container">
@@ -20,7 +20,7 @@ $current = $_SERVER['SCRIPT_NAME'];
 				<li class="nav-item <?php echo $current === '/index.php' ? 'active' : ''; ?>">
 					<a class="nav-link" href="./index.php">Home</a>
 				</li>
-				<li class="nav-item <?php echo $current === '/people.php' ? 'active' : ''; ?>">
+				<li class="nav-item <?php echo in_array( $current, $people_array ) ? 'active' : ''; ?>">
 					<a class="nav-link" href="./people.php">About Us</a>
 				</li>
 				<li class="nav-item <?php echo $current === '/inventory.php' ? 'active' : ''; ?>">

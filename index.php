@@ -5,6 +5,7 @@
 	<?php include_once './head-styles-home.php'; ?>
 </head>
 <body>
+<?php include_once './feedback.php'; ?>
 <div class="container-fluid">
 
 	<?php include_once './header.php'; ?>

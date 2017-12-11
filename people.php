@@ -8,6 +8,7 @@
 <div class="container-fluid">
 
 	<?php include_once './header.php'; ?>
+	<?php include_once './feedback.php'; ?>
 
     <div class="container container-first">
 
@@ -26,7 +27,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Dhruv Mistry - CEO and Product Architect</h4>
                         <p class="card-text">Dhruv had a vision 5 years ago that cars can be cheap, high-quality, and affordable. </p>
-                        <a href="Dhruv Mistry.html" class="btn btn-primary">Contact Dhruv</a>
+                        <a href="./dhruv-mistry.php" class="btn btn-primary">Contact Dhruv</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +39,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Shraddha Tailor - Chief Technical Officer</h4>
                         <p class="card-text">After graduating at SJSU, Shraddha went on to work at Mistry Vehicles for 25 years.</p>
-                        <a href="Shraddha Tailor.html" class="btn btn-primary">Contact Shraddha</a>
+                        <a href="./shraddha-tailor.php" class="btn btn-primary">Contact Shraddha</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +53,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Jacky Huynh - Chief Financial Officer</h4>
                         <p class="card-text">Before coming to Mistry Vehicles, Jacky worked as an Investment Banker at JP Morgan.</p>
-                        <a href="Jacky Huynh.html" class="btn btn-primary">Contact Jacky</a>
+                        <a href="./jacky-huynh.php" class="btn btn-primary">Contact Jacky</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +64,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Eric Chee - Chief Operating Officer test</h4>
                         <p class="card-text">Eric has sold 3 different startups around the Bay Area before joining Mistry Vehicles.</p>
-                        <a href="Eric Chee.html" class="btn btn-primary">Contact Eric</a>
+                        <a href="./eric-chee.php" class="btn btn-primary">Contact Eric</a>
                     </div>
                 </div>
             </div>
