@@ -26,132 +26,134 @@
                     <!-- Single product -->
                     <div class="col-md-4">
                         <div class="product-grid__product">
-                            <div class="product-grid__img-wrapper">
-                                <a href="Porsche Mission E.html">
+                            <a href="./porsche.php">
+                                <div class="product-grid__img-wrapper">
                                     <img src="porsche_mission_e_concept/pictures/porsche_mission_e_.jpg" alt="Img"
                                          class="product-grid__img"/>
-                                </a>
-                            </div>
-                            <span class="product-grid__title">Porsche Mission E</span>
-                            <span class="product-grid__price">1.399€</span>
-                            <div class="product-grid__extend-wrapper">
-                                <div class="product-grid__extend">
-                                    <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Perferendis velit itaque odit.</p>
-                                    <span class="product-grid__btn product-grid__add-to-cart"><i
-                                                class="fa fa-cart-arrow-down"></i> Add to cart</span>
-                                    <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
                                 </div>
-                            </div>
+                                <span class="product-grid__title">Porsche Mission E</span>
+                                <span class="product-grid__price">1.399€</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Perferendis velit itaque odit.</p>
+                                        <span class="product-grid__btn product-grid__add-to-cart"><i
+                                                    class="fa fa-cart-arrow-down"></i> Add to cart</span>
+                                        <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <!-- end Single product -->
 
                     <div class="col-md-4">
                         <div class="product-grid__product">
-                            <div class="product-grid__img-wrapper">
-                                <a href="skylark_product.html">
+                            <a href="./skylark.php">
+                                <div class="product-grid__img-wrapper">
                                     <img src="SkyLark/pictures/flying car bartini1.jpg" alt="Img"
                                          class="product-grid__img"/>
-                                </a>
-                            </div>
-                            <span class="product-grid__title">Skylark</span>
-                            <span class="product-grid__price">1.399€</span>
-                            <div class="product-grid__extend-wrapper">
-                                <div class="product-grid__extend">
-                                    <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Perferendis velit itaque odit.</p>
-                                    <span class="product-grid__btn product-grid__add-to-cart"><i
-                                                class="fa fa-cart-arrow-down"></i> Add to cart</span>
-                                    <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
                                 </div>
-                            </div>
+                                <span class="product-grid__title">Skylark</span>
+                                <span class="product-grid__price">1.399€</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Perferendis velit itaque odit.</p>
+                                        <span class="product-grid__btn product-grid__add-to-cart"><i
+                                                    class="fa fa-cart-arrow-down"></i> Add to cart</span>
+                                        <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="product-grid__product">
-                            <div class="product-grid__img-wrapper">
-                                <a href="McLaren_product.html">
+                            <a href="./mclaren.php">
+                                <div class="product-grid__img-wrapper">
                                     <img src="Mclaren_Senna/McLaren_Img_3.jpg" alt="McLaren Image"
                                          class="product-grid__img"/>
-                                </a>
-                            </div>
-                            <span class="product-grid__title">McLaren</span>
-                            <span class="product-grid__price">1.399€</span>
-                            <div class="product-grid__extend-wrapper">
-                                <div class="product-grid__extend">
-                                    <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Perferendis velit itaque odit.</p>
-                                    <span class="product-grid__btn product-grid__add-to-cart"><i
-                                                class="fa fa-cart-arrow-down"></i> Add to cart</span>
-                                    <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
                                 </div>
-                            </div>
+                                <span class="product-grid__title">McLaren</span>
+                                <span class="product-grid__price">1.399€</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Perferendis velit itaque odit.</p>
+                                        <span class="product-grid__btn product-grid__add-to-cart"><i
+                                                    class="fa fa-cart-arrow-down"></i> Add to cart</span>
+                                        <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="product-grid__product">
-                            <div class="product-grid__img-wrapper">
-                                <a href="Egoista.html">
+                            <a href="./egoista.php">
+                                <div class="product-grid__img-wrapper">
                                     <img src="Lambo_Egoista/Egoista_img_4.jpg" alt="Egoista Image"
                                          class="product-grid__img"/>
-                                </a>
-                            </div>
-                            <span class="product-grid__title">Lamborghini Egoista</span>
-                            <span class="product-grid__price">1.399€</span>
-                            <div class="product-grid__extend-wrapper">
-                                <div class="product-grid__extend">
-                                    <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Perferendis velit itaque odit.</p>
-                                    <span class="product-grid__btn product-grid__add-to-cart"><i
-                                                class="fa fa-cart-arrow-down"></i> Add to cart</span>
-                                    <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
                                 </div>
-                            </div>
+                                <span class="product-grid__title">Lamborghini Egoista</span>
+                                <span class="product-grid__price">1.399€</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Perferendis velit itaque odit.</p>
+                                        <span class="product-grid__btn product-grid__add-to-cart"><i
+                                                    class="fa fa-cart-arrow-down"></i> Add to cart</span>
+                                        <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="product-grid__product">
-                            <div class="product-grid__img-wrapper">
-                                <a href="Vision_product.html">
+                            <a href="./vision.php">
+                                <div class="product-grid__img-wrapper">
                                     <img src="Vision NEXT100 BMW/Vision_Img_5.jpg" alt="Vision100 Image"
                                          class="product-grid__img"/>
-                                </a>
-                            </div>
-                            <span class="product-grid__title">BMW Vision 100</span>
-                            <span class="product-grid__price">1.399€</span>
-                            <div class="product-grid__extend-wrapper">
-                                <div class="product-grid__extend">
-                                    <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Perferendis velit itaque odit.</p>
-                                    <span class="product-grid__btn product-grid__add-to-cart"><i
-                                                class="fa fa-cart-arrow-down"></i> Add to cart</span>
-                                    <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
                                 </div>
-                            </div>
+                                <span class="product-grid__title">BMW Vision 100</span>
+                                <span class="product-grid__price">1.399€</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Perferendis velit itaque odit.</p>
+                                        <span class="product-grid__btn product-grid__add-to-cart"><i
+                                                    class="fa fa-cart-arrow-down"></i> Add to cart</span>
+                                        <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="product-grid__product">
-                            <div class="product-grid__img-wrapper">
-                                <img src="Mercedez%20F015/Merc_Img_3.jpg"
-                                     alt="Mercedez F015" class="product-grid__img"/>
-                            </div>
-                            <span class="product-grid__title">Mercedez F015</span>
-                            <span class="product-grid__price">1.399€</span>
-                            <div class="product-grid__extend-wrapper">
-                                <div class="product-grid__extend">
-                                    <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Perferendis velit itaque odit.</p>
-                                    <span class="product-grid__btn product-grid__add-to-cart"><i
-                                                class="fa fa-cart-arrow-down"></i> Add to cart</span>
-                                    <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                            <a href="./mercedez.php">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="Mercedez%20F015/Merc_Img_3.jpg" alt="Mercedez F015"
+                                         class="product-grid__img"/>
                                 </div>
-                            </div>
+                                <span class="product-grid__title">Mercedez F015</span>
+                                <span class="product-grid__price">1.399€</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Perferendis velit itaque odit.</p>
+                                        <span class="product-grid__btn product-grid__add-to-cart"><i
+                                                    class="fa fa-cart-arrow-down"></i> Add to cart</span>
+                                        <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
             </div>

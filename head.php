@@ -30,6 +30,24 @@ switch ( $current ) {
 	case '/inventory.php':
 		$title = 'Inventory';
 		break;
+	case '/porsche.php':
+		$title = 'Porche Mission E';
+		break;
+	case '/skylark.php':
+		$title = 'Skylark';
+		break;
+	case '/mclaren.php':
+		$title = 'McLaren';
+		break;
+	case '/egoista.php':
+		$title = 'Lamborghini Egoista';
+		break;
+	case '/vision.php':
+		$title = 'BMW Vision100';
+		break;
+	case '/mercedez.php':
+		$title = 'Mercedez F015';
+		break;
 	default:
 		$title = 'Mystery Vehicles';
 		break;

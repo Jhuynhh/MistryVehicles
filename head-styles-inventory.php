@@ -164,6 +164,10 @@
         margin-bottom: 30px;
     }
 
+    .product-grid__product a {
+        text-decoration: none;
+    }
+
     .product-grid__product:hover {
         box-shadow: 0px 0px 0px 1px #eee;
         z-index: 1;
@@ -279,4 +283,8 @@
         background: white;
     }
 
+
+    .carousel-item img {
+        width: 100%;
+    }
 </style>
