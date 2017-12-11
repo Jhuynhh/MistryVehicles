@@ -95,7 +95,7 @@
                         <div class="product-grid__product">
                             <a href="./egoista.php">
                                 <div class="product-grid__img-wrapper">
-                                    <img src="Lambo_Egoista/Egoista_img_4.jpg" alt="Egoista Image"
+                                    <img src="Lambo_Egoista/Egoista_Img_4.jpg" alt="Egoista Image"
                                          class="product-grid__img"/>
                                 </div>
                                 <span class="product-grid__title">Lamborghini Egoista</span>
